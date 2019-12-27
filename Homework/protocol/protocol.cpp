@@ -1,7 +1,19 @@
 #include "rip.h"
 #include <stdint.h>
 #include <stdlib.h>
-
+// #include <stdio.h>
+#include <string.h>
+const uint32_t MaskList[33] = {
+  0x00000000,
+  0x00000080,0x000000c0,0x000000e0,0x000000f0,
+  0x000000f8,0x000000fc,0x000000fe,0x000000ff,
+  0x000080ff,0x0000c0ff,0x0000e0ff,0x0000f0ff,
+  0x0000f8ff,0x0000fcff,0x0000feff,0x0000ffff,
+  0x0080ffff,0x00c0ffff,0x00e0ffff,0x00f0ffff,
+  0x00f8ffff,0x00fcffff,0x00feffff,0x00ffffff,
+  0x80ffffff,0xc0ffffff,0xe0ffffff,0xf0ffffff,
+  0xf8ffffff,0xfcffffff,0xfeffffff,0xffffffff
+};
 /*
   在头文件 rip.h 中定义了如下的结构体：
   #define RIP_MAX_ENTRY 25
@@ -43,9 +55,72 @@
  * Metric 转换成小端序后是否在 [1,16] 的区间内，
  * Mask 的二进制是不是连续的 1 与连续的 0 组成等等。
  */
+
+#define b2l(x) (((uint32_t)(*(char*)(x)) << 24)|((uint32_t)(*(char*)(x+1)) << 16)|((uint32_t)(*(char*)(x+2)) << 8)|((uint32_t)(*(char*)(x+2))))
+
+bool loadEntry(const uint8_t *source, RipEntry * dest,uint8_t cmd){
+  uint16_t family = ((uint16_t)(source[0]) << 8) | source[1];
+  uint16_t tag    = ((uint16_t)(source[2]) << 8) | source[3];
+  uint32_t addr   = *(uint32_t *)(source + 4);
+  uint32_t mask   = *(uint32_t *)(source + 8);
+  uint32_t next   = *(uint32_t *)(source + 12);
+  uint32_t metric = *(uint32_t *)(source + 16);
+  unsigned int i;
+  if((family != ((cmd-1) << 1)) || (tag != 0)){
+    // printf("family or tag error\n");
+    return false;
+  }
+  for(i = 0; i < 33; i++){
+    if(MaskList[i] == mask){
+      break;
+    }
+  }
+  // printf("checkpoint\n");
+  if(i == 33){
+    // printf("MaskError\n");
+    return false;
+  }
+  i = metric >> 24;
+  if(i == 0 || i > 16){
+    return false;
+  }
+  dest->addr = addr;
+  dest->mask = mask;
+  dest->nexthop = next;
+  dest->metric = metric;
+  return true;
+}
+
 bool disassemble(const uint8_t *packet, uint32_t len, RipPacket *output) {
-  // TODO:
-  return false;
+  int iplen = ((uint16_t)packet[2]<<8) | packet[3];
+  int iphlen = (packet[0] & 0x0f) << 2;
+  uint8_t *udp = (uint8_t*)packet + iphlen;
+  uint8_t *rip = udp + 8;
+  uint8_t *entry = rip + 4;
+  uint8_t *end = (uint8_t*)packet + iplen;
+  uint8_t cmd = rip[0];
+  uint8_t ver = rip[1];
+  uint8_t zero = rip[2]|rip[3];
+  int count = 0;
+  if(iplen > len || zero || ver != 2){
+    // printf("len zero error\n");
+    return false;
+  }
+  if(cmd != 1 && cmd != 2){
+    // printf("cmd error\n");
+    return false;
+  }
+  while(entry < end){
+    if(!loadEntry(entry,(output->entries + count),cmd)){
+      // printf("load error\n");
+      return false;
+    }
+    entry += 20;
+    count++;
+  }
+  output->numEntries = count;
+  output->command = cmd;
+  return true;
 }
 
 /**
@@ -59,6 +134,28 @@ bool disassemble(const uint8_t *packet, uint32_t len, RipPacket *output) {
  * 需要注意一些没有保存在 RipPacket 结构体内的数据的填写。
  */
 uint32_t assemble(const RipPacket *rip, uint8_t *buffer) {
-  // TODO:
-  return 0;
+  uint8_t * entry;
+  buffer[0] = rip->command;
+  buffer[1] = 2;
+  buffer[2] = 0;
+  buffer[3] = 0;
+  entry = buffer+4;
+  // printf("rip:%p\n",rip);
+  // printf("entry:%p\n",entry);
+  // entry[0] = 0xff;
+  for(int i = 0; i < rip->numEntries; i++){
+    // printf("writing\n");
+    entry[0] = 0;
+    entry[1] = (rip->command-1) << 1;
+    entry[2] = 0;
+    entry[3] = 0;
+    // memcpy(entry+4,&(rip->entries[i].addr),20);
+    // printf("Rip addr:%x\n",rip->entries[i].addr);
+    ((uint32_t*)entry)[1] = rip->entries[i].addr;
+    ((uint32_t*)entry)[2] = rip->entries[i].mask;
+    ((uint32_t*)entry)[3] = rip->entries[i].nexthop;
+    ((uint32_t*)entry)[4] = rip->entries[i].metric;
+    entry += 20;
+  }
+  return (uint32_t)((char*)entry-(char*)buffer);
 }
