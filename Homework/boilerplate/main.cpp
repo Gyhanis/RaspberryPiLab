@@ -12,7 +12,7 @@ macaddr_t srcmac,dstmac;
 int if_index;
 
 // 你可以按需进行修改，注意端序
-in_addr_t addrs[N_IFACE_ON_BOARD] = {0x0101a8c0, 0x0102a8c0};
+in_addr_t addrs[N_IFACE_ON_BOARD] = {0x0101a8c0, 0x0103a8c0};
 macaddr_t macs[N_IFACE_ON_BOARD];
 bool post();
 
@@ -33,7 +33,7 @@ int init(){
   e.bnhop = 0;
   e.if_index_in = -1;
   update(true,e);
-  e.addr=0x0002a8c0;
+  e.addr=0x0003a8c0;
   e.if_index_out = 1;
   update(true,e);
   for(int i = 0; i < N_IFACE_ON_BOARD; i++){
@@ -84,8 +84,8 @@ int main(int argc, char *argv[]) {
 
   while(true){
     uint64_t time = HAL_GetTicks();
-    if (time > last_time + 30 * 1000) {
-      printf("30s Timer\n");
+    if (time > last_time + 10 * 1000) {
+      printf("10s Timer\n");
       printList();
       for(int i = 0; i < N_IFACE_ON_BOARD; i++)
         LaunchRip(addrs[i],i);
@@ -108,6 +108,8 @@ int main(int argc, char *argv[]) {
     if(toMe()){
       switch(handleRip(packet,if_index)){
       case RIP_UPDATE: 
+        printf("Rip updated,launching package\n");
+        printList();
         for(int i = 0; i < N_IFACE_ON_BOARD; i++){
           if(i == if_index) continue;
           LaunchRip(addrs[i],i);
@@ -119,6 +121,17 @@ int main(int argc, char *argv[]) {
       }
     }else if(memcmp(dstmac,macs[if_index],6) == 0){ //not to me
       post();
+    }else{
+      printf("Something wrong with the switcher\n");
+      printips();
+      printf("dstmac:");
+      printmac(dstmac);
+      putchar(10);
+      printf("if_index:%d\n",if_index);
+      printf("macs[if_index]");
+      printmac(macs[if_index]);
+      putchar(10);
+      putchar(10);
     }
   }
   return 0;
