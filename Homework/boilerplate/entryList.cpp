@@ -30,7 +30,7 @@ bool update(bool insert, ENTRY entry) {
   if(insert){
     for(int i = 0; i < entryCount; i++){
       if(entryList[i].addr == entry.addr && entryList[i].len == entry.len){
-        if(entryList[i].nexthop == entry.nexthop){
+        if(entryList[i].nexthop == entry.nexthop && entryList[i].metric != entry.metric){
             entryList[i] = entry;
             return true;
         }else{
@@ -89,7 +89,7 @@ void printEntry(ENTRY *entry){
   printf("len:%d\t",entry->len);
   printf("ifout:%d\t",entry->if_index_out);
   printf("ifin:%d\n",entry->if_index_in);
-  printf("metric:%d\n",entry->metric);
+  printf("metric:%d\n",reverse(entry->metric));
   printf("nexthop:");
   printip(entry->nexthop);
   putchar(10);

@@ -12,7 +12,7 @@ macaddr_t srcmac,dstmac;
 int if_index;
 
 // 你可以按需进行修改，注意端序
-in_addr_t addrs[N_IFACE_ON_BOARD] = {0x0101a8c0, 0x0103a8c0};
+in_addr_t addrs[N_IFACE_ON_BOARD] = {0x0203a8c0, 0x0104a8c0};
 macaddr_t macs[N_IFACE_ON_BOARD];
 bool post();
 
@@ -24,7 +24,7 @@ int init(){
   }
   ListInit();
   RipInit();
-  e.addr=0x0001a8c0;
+  e.addr=0x0003a8c0;
   e.len =24;
   e.if_index_out = 0;
   e.nexthop = 0;
@@ -33,7 +33,7 @@ int init(){
   e.bnhop = 0;
   e.if_index_in = -1;
   update(true,e);
-  e.addr=0x0003a8c0;
+  e.addr=0x0004a8c0;
   e.if_index_out = 1;
   update(true,e);
   for(int i = 0; i < N_IFACE_ON_BOARD; i++){
