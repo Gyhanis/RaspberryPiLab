@@ -15,7 +15,7 @@ ENTRY* getEntry(int index){
         printf("List not inited\n");
         return NULL;
     }
-    if(index < 0 || index > entryCount){
+    if(index < 0 || index >= entryCount){
         printf("Index out of range\n");
         return NULL;
     }
@@ -89,6 +89,7 @@ void printEntry(ENTRY *entry){
   printf("len:%d\t",entry->len);
   printf("ifout:%d\t",entry->if_index_out);
   printf("ifin:%d\n",entry->if_index_in);
+  printf("metric:%d\n",entry->metric);
   printf("nexthop:");
   printip(entry->nexthop);
   putchar(10);

@@ -1,0 +1,2096 @@
+Index out of range
+Index out of range
+packet invalid
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+destination unreachable
+>>>destination ip:192.168.5.1
+>>>source ip:192.168.1.2
+
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+mac not found
+>>>destination ip:192.168.5.1
+>>>source ip:192.168.1.2
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+destination unreachable
+>>>destination ip:111.161.107.181
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.119.75
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:220.249.245.144
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.232.127.245
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.204.17.16
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.180.186
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.64
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.78.49
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:223.166.151.140
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.181
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.119.75
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:220.249.245.144
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.232.127.245
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.204.17.16
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.180.186
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.64
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.78.49
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:223.166.151.140
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.77.214
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.77.214
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.55
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.55
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.241.179.96
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.241.179.96
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.94.80
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.94.80
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.120.14
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.120.14
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.181
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.119.75
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:220.249.245.144
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.232.127.245
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.204.17.16
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.180.186
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.64
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.78.49
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:223.166.151.140
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.77.214
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.77.214
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.55
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.55
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.241.179.96
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.94.80
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.241.179.96
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.94.80
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.120.14
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.120.14
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.232.93.23
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.56.20
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:220.249.245.151
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.78.115
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:140.207.128.178
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.87.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.87.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.49.183
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.49.183
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.40
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.40
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.226.196
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.226.196
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.77.214
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.55
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.77.214
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.30.159.55
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.241.179.96
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.94.80
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:120.241.179.96
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.94.80
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.120.14
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:59.36.120.14
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.87.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.87.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.49.183
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.49.183
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.40
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.226.196
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.40
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.226.196
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.232.93.23
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.56.20
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:220.249.245.151
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.78.115
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:140.207.128.178
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.87.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:163.177.87.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:111.161.107.182
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.49.183
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.40
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.49.183
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.226.196
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.40
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:61.151.226.196
+>>>source ip:192.168.1.2
+
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+destination unreachable
+>>>destination ip:183.232.93.23
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:183.60.56.20
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:119.147.45.203
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:220.249.245.151
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:123.151.78.115
+>>>source ip:192.168.1.2
+
+destination unreachable
+>>>destination ip:140.207.128.178
+>>>source ip:192.168.1.2
+
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+Something wrong with the switcher
+>>>destination ip:239.255.255.250
+>>>source ip:192.168.1.2
+
+dstmac:01:00:5e:7f:ff:fa
+if_index:0
+macs[if_index]dc:a6:32:4e:09:e1
+
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+10s Timer
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.3.0
+len:24	ifout:1	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<=============E N T R Y================>
+addr:192.168.4.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<=============E N T R Y================>
+addr:10.0.2.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:10.0.3.0
+len:24	ifout:1	ifin:1
+metric:33554432
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.3.2
+<=============E N T R Y================>
+addr:192.168.5.0
+len:24	ifout:1	ifin:1
+metric:50331648
+nexthop:192.168.3.2
+mask:255.255.255.0
+bnhop:192.168.4.2
+<<<<<<<<<<List end<<<<<<<<<<<<<<
+Index out of range
+Index out of range
+Rip updated,launching package
+>>>>>>>>>>List start>>>>>>>>>>>>>
+<=============E N T R Y================>
+addr:192.168.1.0
+len:24	ifout:0	ifin:-1
+metric:16777216
+nexthop:0.0.0.0
+mask:255.255.255.0
+bnhop:0.0.0.0
+<==
